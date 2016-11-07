@@ -1,0 +1,872 @@
+<ns4:AdhocQueryResponse xmlns:ns6="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0" xmlns:ns5="urn:ihe:iti:xds-b:2007" xmlns:ns4="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0" xmlns:ns3="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0" xmlns:ns2="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" status="urn:oasis:names:tc:ebxml-regrep:ResponseStatusType:Success">
+  <ns2:RegistryObjectList>
+    <ns2:ExtrinsicObject mimeType="application/octet-stream" lid="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f">
+      <ns2:Slot name="creationTime">
+        <ns2:ValueList>
+          <ns2:Value>1981</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="hash">
+        <ns2:ValueList>
+          <ns2:Value>da39a3ee5e6b4b0d3255bfef95601890afd80709</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="languageCode">
+        <ns2:ValueList>
+          <ns2:Value>en-US</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="serviceStartTime">
+        <ns2:ValueList>
+          <ns2:Value>198012</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="serviceStopTime">
+        <ns2:ValueList>
+          <ns2:Value>1981</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="repositoryUniqueId">
+        <ns2:ValueList>
+          <ns2:Value>1.3.6.1.4.1.2205.2154.3.1.22</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="URI">
+        <ns2:ValueList>
+          <ns2:Value>1|http://hierunten.com</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="size">
+        <ns2:ValueList>
+          <ns2:Value>70000</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="sourcePatientId">
+        <ns2:ValueList>
+          <ns2:Value>source^^^&amp;4.1&amp;ISO</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="sourcePatientInfo">
+        <ns2:ValueList>
+          <ns2:Value>PID-5|Susi</ns2:Value>
+          <ns2:Value>PID-7|1233</ns2:Value>
+          <ns2:Value>PID-8|M</ns2:Value>
+          <ns2:Value>PID-11|hier</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="urn:ihe:iti:xds:2013:referenceIdList">
+        <ns2:ValueList>
+          <ns2:Value>ref-id-1^^^&amp;1.1.2.3&amp;ISO^urn:ihe:iti:xds:2013:order^&amp;1.4.5.6&amp;ISO</ns2:Value>
+          <ns2:Value>ref-id-2^^^&amp;2.1.2.3&amp;ISO^vendor-defined^&amp;2.4.5.6&amp;ISO</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Name>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Document 01" />
+      </ns2:Name>
+      <ns2:Description>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="comment2" />
+      </ns2:Description>
+      <ns2:VersionInfo versionName="1" />
+      <ns2:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f" nodeRepresentation="18720-3" id="urn:uuid:79652b6b-6a22-437b-b058-c8055021b3f3">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.6.1</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="COAGULATION STUDIES" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f" nodeRepresentation="1.3.6.1.4.1.19376.1.5.3.1.1.2" id="urn:uuid:b5540dd5-f0e2-4b91-8de3-99758c29dac5">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>Connect-a-thon formatCodes</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="XDS-MS" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f" nodeRepresentation="ONCL" id="urn:uuid:869f04ef-e7e5-42a9-9df7-2b63670d828d">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.5.11</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Medical oncology clinic" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f" nodeRepresentation="Dialysis" id="urn:uuid:a9175869-be5d-4432-95a5-e9a46edc0d53">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>Connect-a-thon practiceSettingCodes</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Dialysis" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f" nodeRepresentation="34096-8" id="urn:uuid:bf0f8e62-390f-4103-85f9-8e3fb44ef70d">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>LOINC</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Nursing Home Comprehensive History and Physical Note" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f" nodeRepresentation="N" id="urn:uuid:ce9a1e22-ecd0-4a2b-816c-68b8425757f8">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.5.25</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Normal" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" classifiedObject="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f" nodeRepresentation="NONE" id="urn:uuid:5d6c75d8-ca97-4b38-a4f5-0552724debc3">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>DCM</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="None" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="07067448574^^^&amp;1.3.6.1.4.1.2205.2154.3.1.22&amp;ISO" id="urn:uuid:9baad850-7146-4441-8810-f1b56082a53a">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSDocumentEntry.patientId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1654144130.6780495280754736976" id="urn:uuid:0d89d21e-0ce3-4ac1-9296-974f1e2147f0">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSDocumentEntry.uniqueId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+    </ns2:ExtrinsicObject>
+    <ns2:ExtrinsicObject mimeType="application/octet-stream" lid="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3">
+      <ns2:Slot name="creationTime">
+        <ns2:ValueList>
+          <ns2:Value>1981</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="hash">
+        <ns2:ValueList>
+          <ns2:Value>da39a3ee5e6b4b0d3255bfef95601890afd80709</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="languageCode">
+        <ns2:ValueList>
+          <ns2:Value>en-US</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="serviceStartTime">
+        <ns2:ValueList>
+          <ns2:Value>198012</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="serviceStopTime">
+        <ns2:ValueList>
+          <ns2:Value>1981</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="repositoryUniqueId">
+        <ns2:ValueList>
+          <ns2:Value>1.3.6.1.4.1.2205.2154.3.1.22</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="URI">
+        <ns2:ValueList>
+          <ns2:Value>1|http://hierunten.com</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="size">
+        <ns2:ValueList>
+          <ns2:Value>70000</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="sourcePatientId">
+        <ns2:ValueList>
+          <ns2:Value>source^^^&amp;4.1&amp;ISO</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="sourcePatientInfo">
+        <ns2:ValueList>
+          <ns2:Value>PID-5|Susi</ns2:Value>
+          <ns2:Value>PID-7|1233</ns2:Value>
+          <ns2:Value>PID-8|M</ns2:Value>
+          <ns2:Value>PID-11|hier</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="urn:ihe:iti:xds:2013:referenceIdList">
+        <ns2:ValueList>
+          <ns2:Value>ref-id-1^^^&amp;1.1.2.3&amp;ISO^urn:ihe:iti:xds:2013:order^&amp;1.4.5.6&amp;ISO</ns2:Value>
+          <ns2:Value>ref-id-2^^^&amp;2.1.2.3&amp;ISO^vendor-defined^&amp;2.4.5.6&amp;ISO</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="urn:emc:discharging_physician">
+        <ns2:ValueList>
+          <ns2:Value>Dr William.</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="urn:emc:discharge_summary">
+        <ns2:ValueList>
+          <ns2:Value>Patient is fine.</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Name>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Document 01" />
+      </ns2:Name>
+      <ns2:Description>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="comment2" />
+      </ns2:Description>
+      <ns2:VersionInfo versionName="1" />
+      <ns2:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3" nodeRepresentation="18720-3" id="urn:uuid:0a29ca15-ad0e-4c54-8428-dac4634d16a0">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.6.1</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="COAGULATION STUDIES" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3" nodeRepresentation="1.3.6.1.4.1.19376.1.5.3.1.1.2" id="urn:uuid:64222cc0-a0cf-45d7-b6d6-1fd0587ef681">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>Connect-a-thon formatCodes</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="XDS-MS" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3" nodeRepresentation="ONCL" id="urn:uuid:736d639e-a47b-413b-942c-1ca51eb908c7">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.5.11</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Medical oncology clinic" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3" nodeRepresentation="Dialysis" id="urn:uuid:e5fceca8-70e4-4410-aff6-74b6232e48f0">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>Connect-a-thon practiceSettingCodes</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Dialysis" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3" nodeRepresentation="11490-0" id="urn:uuid:ac41d7fa-ec90-43d1-8a20-34d2e5d64f2d">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>LOINC</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Physician Discharge Summarization Note" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3" nodeRepresentation="N" id="urn:uuid:ed924e05-99db-47f7-8160-1ad0234e5269">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.5.25</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Normal" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" classifiedObject="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3" nodeRepresentation="NONE" id="urn:uuid:a9aa87a0-5f78-401c-ab56-a298fad2aeb5">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>DCM</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="None" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="07067448574^^^&amp;1.3.6.1.4.1.2205.2154.3.1.22&amp;ISO" id="urn:uuid:b4960edd-e234-4e89-a268-7457c5ecae10">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSDocumentEntry.patientId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1571045150.9099819667951140333" id="urn:uuid:49a6ef8d-687d-499d-9e2b-ab4d54891d99">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSDocumentEntry.uniqueId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+    </ns2:ExtrinsicObject>
+    <ns2:ExtrinsicObject mimeType="application/octet-stream" lid="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83">
+      <ns2:Slot name="creationTime">
+        <ns2:ValueList>
+          <ns2:Value>1981</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="hash">
+        <ns2:ValueList>
+          <ns2:Value>da39a3ee5e6b4b0d3255bfef95601890afd80709</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="languageCode">
+        <ns2:ValueList>
+          <ns2:Value>en-US</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="serviceStartTime">
+        <ns2:ValueList>
+          <ns2:Value>198012</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="serviceStopTime">
+        <ns2:ValueList>
+          <ns2:Value>1981</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="repositoryUniqueId">
+        <ns2:ValueList>
+          <ns2:Value>1.3.6.1.4.1.2205.2154.3.1.22</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="URI">
+        <ns2:ValueList>
+          <ns2:Value>1|http://hierunten.com</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="size">
+        <ns2:ValueList>
+          <ns2:Value>70000</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="sourcePatientId">
+        <ns2:ValueList>
+          <ns2:Value>source^^^&amp;4.1&amp;ISO</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="sourcePatientInfo">
+        <ns2:ValueList>
+          <ns2:Value>PID-5|Susi</ns2:Value>
+          <ns2:Value>PID-7|1233</ns2:Value>
+          <ns2:Value>PID-8|M</ns2:Value>
+          <ns2:Value>PID-11|hier</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="urn:ihe:iti:xds:2013:referenceIdList">
+        <ns2:ValueList>
+          <ns2:Value>ref-id-1^^^&amp;1.1.2.3&amp;ISO^urn:ihe:iti:xds:2013:order^&amp;1.4.5.6&amp;ISO</ns2:Value>
+          <ns2:Value>ref-id-2^^^&amp;2.1.2.3&amp;ISO^vendor-defined^&amp;2.4.5.6&amp;ISO</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Name>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Document 01" />
+      </ns2:Name>
+      <ns2:Description>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="comment2" />
+      </ns2:Description>
+      <ns2:VersionInfo versionName="1" />
+      <ns2:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83" nodeRepresentation="18720-3" id="urn:uuid:ac90f84e-62b7-43c1-8b0b-57e23f71ceb9">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.6.1</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="COAGULATION STUDIES" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83" nodeRepresentation="1.3.6.1.4.1.19376.1.5.3.1.1.2" id="urn:uuid:bc7f7dc9-e54c-4363-8b50-f5031ab98e69">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>Connect-a-thon formatCodes</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="XDS-MS" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83" nodeRepresentation="ONCL" id="urn:uuid:387b0fd8-db1d-42e8-b1fc-c884ac238e55">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.5.11</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Medical oncology clinic" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83" nodeRepresentation="Dialysis" id="urn:uuid:9c2f69fe-af22-47d2-a3d5-e2a084fbbcd6">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>Connect-a-thon practiceSettingCodes</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Dialysis" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83" nodeRepresentation="34096-8" id="urn:uuid:9e17efe0-25b6-495e-aa40-b8af3ff2cfc0">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>LOINC</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Nursing Home Comprehensive History and Physical Note" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83" nodeRepresentation="N" id="urn:uuid:2e5d6405-ec3f-496f-8d6a-e887b6e0e524">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.5.25</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Normal" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" classifiedObject="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83" nodeRepresentation="NONE" id="urn:uuid:4a3c4124-ce59-4ec2-b813-2175ac36973d">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>DCM</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="None" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="07067448574^^^&amp;1.3.6.1.4.1.2205.2154.3.1.22&amp;ISO" id="urn:uuid:78bd929d-2560-4915-8675-6f7154b848a8">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSDocumentEntry.patientId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="199987425.3764821017101173401" id="urn:uuid:278177c1-2b29-47b2-9100-461211f22d80">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSDocumentEntry.uniqueId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+    </ns2:ExtrinsicObject>
+    <ns2:ExtrinsicObject mimeType="application/octet-stream" lid="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f">
+      <ns2:Slot name="creationTime">
+        <ns2:ValueList>
+          <ns2:Value>1981</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="hash">
+        <ns2:ValueList>
+          <ns2:Value>da39a3ee5e6b4b0d3255bfef95601890afd80709</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="languageCode">
+        <ns2:ValueList>
+          <ns2:Value>en-US</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="serviceStartTime">
+        <ns2:ValueList>
+          <ns2:Value>198012</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="serviceStopTime">
+        <ns2:ValueList>
+          <ns2:Value>1981</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="repositoryUniqueId">
+        <ns2:ValueList>
+          <ns2:Value>1.3.6.1.4.1.2205.2154.3.1.22</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="URI">
+        <ns2:ValueList>
+          <ns2:Value>1|http://hierunten.com</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="size">
+        <ns2:ValueList>
+          <ns2:Value>70000</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="sourcePatientId">
+        <ns2:ValueList>
+          <ns2:Value>source^^^&amp;4.1&amp;ISO</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="sourcePatientInfo">
+        <ns2:ValueList>
+          <ns2:Value>PID-5|Susi</ns2:Value>
+          <ns2:Value>PID-7|1233</ns2:Value>
+          <ns2:Value>PID-8|M</ns2:Value>
+          <ns2:Value>PID-11|hier</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="urn:ihe:iti:xds:2013:referenceIdList">
+        <ns2:ValueList>
+          <ns2:Value>ref-id-1^^^&amp;1.1.2.3&amp;ISO^urn:ihe:iti:xds:2013:order^&amp;1.4.5.6&amp;ISO</ns2:Value>
+          <ns2:Value>ref-id-2^^^&amp;2.1.2.3&amp;ISO^vendor-defined^&amp;2.4.5.6&amp;ISO</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="urn:emc:discharging_physician">
+        <ns2:ValueList>
+          <ns2:Value>Dr William.</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="urn:emc:discharge_summary">
+        <ns2:ValueList>
+          <ns2:Value>Patient is fine.</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Name>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Document 01" />
+      </ns2:Name>
+      <ns2:Description>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="comment2" />
+      </ns2:Description>
+      <ns2:VersionInfo versionName="1" />
+      <ns2:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f" nodeRepresentation="18720-3" id="urn:uuid:d3ea3921-1d81-4585-a700-b01e0bd22a84">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.6.1</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="COAGULATION STUDIES" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f" nodeRepresentation="1.3.6.1.4.1.19376.1.5.3.1.1.2" id="urn:uuid:21cf81b1-b90d-452b-beec-d097349c2524">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>Connect-a-thon formatCodes</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="XDS-MS" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f" nodeRepresentation="ONCL" id="urn:uuid:55340ab1-f97e-48ab-baaa-b0745f541b67">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.5.11</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Medical oncology clinic" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f" nodeRepresentation="Dialysis" id="urn:uuid:9b234934-076a-4ea7-8dc1-975ce35680a6">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>Connect-a-thon practiceSettingCodes</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Dialysis" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f" nodeRepresentation="11490-0" id="urn:uuid:0ffbf00f-9080-495b-b592-c030b8638953">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>LOINC</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Physician Discharge Summarization Note" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f" nodeRepresentation="N" id="urn:uuid:7358d004-04f6-417a-9fdd-6563f3e41ff5">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.5.25</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Normal" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" classifiedObject="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f" nodeRepresentation="NONE" id="urn:uuid:930de308-174f-426b-851e-abb9d98b26f7">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>DCM</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="None" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="07067448574^^^&amp;1.3.6.1.4.1.2205.2154.3.1.22&amp;ISO" id="urn:uuid:b9b464fb-61f9-4f94-baa3-d38a071cf3aa">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSDocumentEntry.patientId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1394091045.7905909086750643022" id="urn:uuid:4f32e645-68c9-4266-9487-042ff60f7812">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSDocumentEntry.uniqueId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+    </ns2:ExtrinsicObject>
+    <ns2:RegistryPackage lid="urn:uuid:1d310434-8b74-4c14-b741-d4e2c933dc84" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:1d310434-8b74-4c14-b741-d4e2c933dc84">
+      <ns2:Slot name="intendedRecipient">
+        <ns2:ValueList>
+          <ns2:Value>org</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="submissionTime">
+        <ns2:ValueList>
+          <ns2:Value>20160922091317</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Name>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Submission Set 01" />
+      </ns2:Name>
+      <ns2:Description>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="comments1" />
+      </ns2:Description>
+      <ns2:VersionInfo versionName="1" />
+      <ns2:Classification classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" classifiedObject="urn:uuid:1d310434-8b74-4c14-b741-d4e2c933dc84" nodeRepresentation="" id="urn:uuid:885746d8-09b2-4ca5-84f9-2c32221c4c13">
+        <ns2:Slot name="authorPerson">
+          <ns2:ValueList>
+            <ns2:Value>id1^Otto^^^^^^^&amp;1.1&amp;ISO</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" classifiedObject="urn:uuid:1d310434-8b74-4c14-b741-d4e2c933dc84" nodeRepresentation="18720-3" id="urn:uuid:7501cb8f-118d-47f9-95db-d79deb6c9a40">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.6.1</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="COAGULATION STUDIES" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:1d310434-8b74-4c14-b741-d4e2c933dc84" identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" value="07067448574^^^&amp;1.3.6.1.4.1.2205.2154.3.1.22&amp;ISO" id="urn:uuid:3166ff9f-7f19-4d63-a07a-85aea39c5739">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.patientId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:1d310434-8b74-4c14-b741-d4e2c933dc84" identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" value="1729162647.6506482016463702044" id="urn:uuid:a0e2cf4c-fcaf-4ecb-93de-30b135798af9">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.uniqueId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:1d310434-8b74-4c14-b741-d4e2c933dc84" identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" value="1.2.3" id="urn:uuid:bc34349d-c080-4646-a8c2-f6afbc158b45">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.sourceId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+    </ns2:RegistryPackage>
+    <ns2:Classification classifiedObject="urn:uuid:1d310434-8b74-4c14-b741-d4e2c933dc84" classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" id="urn:uuid:ded3b3d5-d619-4d7a-9065-7fad4af0cdb8" />
+    <ns2:RegistryPackage lid="urn:uuid:0b1c58a1-ddf3-4738-8563-84a3ff4814f8" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:0b1c58a1-ddf3-4738-8563-84a3ff4814f8">
+      <ns2:Slot name="intendedRecipient">
+        <ns2:ValueList>
+          <ns2:Value>org</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="submissionTime">
+        <ns2:ValueList>
+          <ns2:Value>20160922091317</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Name>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Submission Set 01" />
+      </ns2:Name>
+      <ns2:Description>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="comments1" />
+      </ns2:Description>
+      <ns2:VersionInfo versionName="1" />
+      <ns2:Classification classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" classifiedObject="urn:uuid:0b1c58a1-ddf3-4738-8563-84a3ff4814f8" nodeRepresentation="" id="urn:uuid:bbf2af00-e357-47a7-a562-ea7561786c09">
+        <ns2:Slot name="authorPerson">
+          <ns2:ValueList>
+            <ns2:Value>id1^Otto^^^^^^^&amp;1.1&amp;ISO</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" classifiedObject="urn:uuid:0b1c58a1-ddf3-4738-8563-84a3ff4814f8" nodeRepresentation="18720-3" id="urn:uuid:2d7b74f4-a553-4e00-8782-965d17354a88">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.6.1</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="COAGULATION STUDIES" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:0b1c58a1-ddf3-4738-8563-84a3ff4814f8" identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" value="07067448574^^^&amp;1.3.6.1.4.1.2205.2154.3.1.22&amp;ISO" id="urn:uuid:cceaca3b-1c8d-44ea-a92b-20304d2da6dd">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.patientId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:0b1c58a1-ddf3-4738-8563-84a3ff4814f8" identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" value="438627849.3387446969973767114" id="urn:uuid:a153216a-0f96-47b8-b765-b8e9b14e2e00">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.uniqueId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:0b1c58a1-ddf3-4738-8563-84a3ff4814f8" identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" value="1.2.3" id="urn:uuid:f599e4ff-388f-4bf2-b8d8-52415497caa6">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.sourceId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+    </ns2:RegistryPackage>
+    <ns2:Classification classifiedObject="urn:uuid:0b1c58a1-ddf3-4738-8563-84a3ff4814f8" classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" id="urn:uuid:4cb8d069-e84a-4101-84d6-72710164df7e" />
+    <ns2:RegistryPackage lid="urn:uuid:bde323b2-dff8-4780-abc3-8883bb6271e5" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:bde323b2-dff8-4780-abc3-8883bb6271e5">
+      <ns2:Slot name="intendedRecipient">
+        <ns2:ValueList>
+          <ns2:Value>org</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="submissionTime">
+        <ns2:ValueList>
+          <ns2:Value>20160922091413</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Name>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Submission Set 01" />
+      </ns2:Name>
+      <ns2:Description>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="comments1" />
+      </ns2:Description>
+      <ns2:VersionInfo versionName="1" />
+      <ns2:Classification classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" classifiedObject="urn:uuid:bde323b2-dff8-4780-abc3-8883bb6271e5" nodeRepresentation="" id="urn:uuid:a3b88e34-40ac-40a1-94c1-cda4c5ba0385">
+        <ns2:Slot name="authorPerson">
+          <ns2:ValueList>
+            <ns2:Value>id1^Otto^^^^^^^&amp;1.1&amp;ISO</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" classifiedObject="urn:uuid:bde323b2-dff8-4780-abc3-8883bb6271e5" nodeRepresentation="18720-3" id="urn:uuid:fd5d76b7-1e1d-4e1f-8f54-812e12645c1e">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.6.1</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="COAGULATION STUDIES" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:bde323b2-dff8-4780-abc3-8883bb6271e5" identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" value="07067448574^^^&amp;1.3.6.1.4.1.2205.2154.3.1.22&amp;ISO" id="urn:uuid:0a8fb0c6-51cb-4c53-a293-93ffd7935ae2">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.patientId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:bde323b2-dff8-4780-abc3-8883bb6271e5" identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" value="1843997492.5338513808612362036" id="urn:uuid:adca12b8-7b31-4db4-af36-b4d483ce4fa0">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.uniqueId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:bde323b2-dff8-4780-abc3-8883bb6271e5" identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" value="1.2.3" id="urn:uuid:96373fd0-70b5-4d80-9e11-0cfd84f600b5">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.sourceId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+    </ns2:RegistryPackage>
+    <ns2:Classification classifiedObject="urn:uuid:bde323b2-dff8-4780-abc3-8883bb6271e5" classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" id="urn:uuid:1876e444-5655-4552-b3df-f366c6a30543" />
+    <ns2:RegistryPackage lid="urn:uuid:895eefc5-a3c2-4273-8ebe-9941bb69388d" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:895eefc5-a3c2-4273-8ebe-9941bb69388d">
+      <ns2:Slot name="intendedRecipient">
+        <ns2:ValueList>
+          <ns2:Value>org</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="submissionTime">
+        <ns2:ValueList>
+          <ns2:Value>20160922091413</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Name>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="Submission Set 01" />
+      </ns2:Name>
+      <ns2:Description>
+        <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="comments1" />
+      </ns2:Description>
+      <ns2:VersionInfo versionName="1" />
+      <ns2:Classification classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" classifiedObject="urn:uuid:895eefc5-a3c2-4273-8ebe-9941bb69388d" nodeRepresentation="" id="urn:uuid:7e01306d-2eb6-4da4-83bc-0a8c6bfa3855">
+        <ns2:Slot name="authorPerson">
+          <ns2:ValueList>
+            <ns2:Value>id1^Otto^^^^^^^&amp;1.1&amp;ISO</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+      </ns2:Classification>
+      <ns2:Classification classificationScheme="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" classifiedObject="urn:uuid:895eefc5-a3c2-4273-8ebe-9941bb69388d" nodeRepresentation="18720-3" id="urn:uuid:e6121f00-f2f0-47f1-998e-72ff247f3c40">
+        <ns2:Slot name="codingScheme">
+          <ns2:ValueList>
+            <ns2:Value>2.16.840.1.113883.6.1</ns2:Value>
+          </ns2:ValueList>
+        </ns2:Slot>
+        <ns2:Name>
+          <ns2:LocalizedString xml:lang="en-US" charset="UTF-8" value="COAGULATION STUDIES" />
+        </ns2:Name>
+      </ns2:Classification>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:895eefc5-a3c2-4273-8ebe-9941bb69388d" identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" value="07067448574^^^&amp;1.3.6.1.4.1.2205.2154.3.1.22&amp;ISO" id="urn:uuid:f4c3acf2-6150-44f5-a98c-028e2b452007">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.patientId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:895eefc5-a3c2-4273-8ebe-9941bb69388d" identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" value="401019855.3687781262944739039" id="urn:uuid:1f466a28-bb18-4ab4-aa58-7240b9001b8e">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.uniqueId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+      <ns2:ExternalIdentifier registryObject="urn:uuid:895eefc5-a3c2-4273-8ebe-9941bb69388d" identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" value="1.2.3" id="urn:uuid:b2fd86ad-e067-4357-a889-197de3ba9c72">
+        <ns2:Name>
+          <ns2:LocalizedString value="XDSSubmissionSet.sourceId" />
+        </ns2:Name>
+      </ns2:ExternalIdentifier>
+    </ns2:RegistryPackage>
+    <ns2:Classification classifiedObject="urn:uuid:895eefc5-a3c2-4273-8ebe-9941bb69388d" classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" id="urn:uuid:b81298fe-fd81-4e70-90d2-1429d659c933" />
+    <ns2:Association associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="urn:uuid:1d310434-8b74-4c14-b741-d4e2c933dc84" targetObject="urn:uuid:bf0946a3-445d-4d43-ac66-cbe5d9a97e9f" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:54bc11c1-4b6f-4268-b266-94863889ec39">
+      <ns2:Slot name="SubmissionSetStatus">
+        <ns2:ValueList>
+          <ns2:Value>Original</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="PreviousVersion">
+        <ns2:ValueList>
+          <ns2:Value>1</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+    </ns2:Association>
+    <ns2:Association associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="urn:uuid:0b1c58a1-ddf3-4738-8563-84a3ff4814f8" targetObject="urn:uuid:06cb2a33-4425-4404-b903-a276170563a3" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:a7e0c063-5826-461b-b187-b9e339cc0601">
+      <ns2:Slot name="SubmissionSetStatus">
+        <ns2:ValueList>
+          <ns2:Value>Original</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="PreviousVersion">
+        <ns2:ValueList>
+          <ns2:Value>1</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+    </ns2:Association>
+    <ns2:Association associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="urn:uuid:bde323b2-dff8-4780-abc3-8883bb6271e5" targetObject="urn:uuid:6a605bc7-146e-45fc-9e9a-ed7a24d46f83" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:5c664b69-2c94-4fbd-9015-8d184c3e4e55">
+      <ns2:Slot name="SubmissionSetStatus">
+        <ns2:ValueList>
+          <ns2:Value>Original</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="PreviousVersion">
+        <ns2:ValueList>
+          <ns2:Value>1</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+    </ns2:Association>
+    <ns2:Association associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="urn:uuid:895eefc5-a3c2-4273-8ebe-9941bb69388d" targetObject="urn:uuid:e79c7683-cdba-4edb-a598-96cca8b7333f" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:2e95e5ed-8988-4386-93fb-8b968ca45f9d">
+      <ns2:Slot name="SubmissionSetStatus">
+        <ns2:ValueList>
+          <ns2:Value>Original</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+      <ns2:Slot name="PreviousVersion">
+        <ns2:ValueList>
+          <ns2:Value>1</ns2:Value>
+        </ns2:ValueList>
+      </ns2:Slot>
+    </ns2:Association>
+  </ns2:RegistryObjectList>
+</ns4:AdhocQueryResponse>

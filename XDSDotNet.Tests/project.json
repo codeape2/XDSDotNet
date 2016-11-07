@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0-*",
+  "testRunner": "xunit",
+
+  "dependencies": {
+    "xunit": "2.1.0",
+    "XDSDotNet": "1.0.0-*",
+    "dotnet-test-xunit": "1.0.0-rc2-build10025"
+  },
+
+  "frameworks": {
+    "net461": {
+      "dependencies": {
+      }
+    }
+  },
+
+  "buildOptions": {
+    "copyToOutput": [
+      "query_response_2.xml",
+      "registry_query_response.xml",
+      "Document.rtf",
+      "registrycodes.xml",
+      "schemas/*.*"
+    ] 
+  }
+}

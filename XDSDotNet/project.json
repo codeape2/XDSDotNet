@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+  },
+
+  "frameworks": {
+    "net461": {
+      "dependencies": {
+      },
+      "frameworkAssemblies": {
+        "System.ServiceModel": "4.0.0.0",
+        "System.Xml.Linq": "4.0.0.0"
+      }
+    }
+  },
+
+  "buildOptions": {
+  }
+}
