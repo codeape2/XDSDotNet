@@ -39,7 +39,7 @@ namespace XDSDotNet.Tests
             pards.SubmissionTime = new DateTime(2016, 1, 1);
             var request = pards.CreateRequestBody();
 
-            Assert.Equal(File.ReadAllText("..\\..\\..\\..\\iti41_baseline.xml"), request.ToString());
+            Assert.Equal(File.ReadAllText("iti41_baseline.xml"), request.ToString());
         }
 
         [Fact]

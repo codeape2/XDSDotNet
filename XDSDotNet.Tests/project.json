@@ -21,6 +21,7 @@
       "registry_query_response.xml",
       "Document.rtf",
       "registrycodes.xml",
+      "iti41_baseline.xml",
       "schemas/*.*"
     ] 
   }
