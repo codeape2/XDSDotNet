@@ -19,10 +19,28 @@ namespace XDSDotNet.Tests
             this.output = output;
         }
 
+        private void setRequiredProperties(CDABuilder cdabuilder)
+        {
+            cdabuilder.IdRoot = "idroot";
+            cdabuilder.IdExtension = "idextension";
+            cdabuilder.PatientIdRoot = "patientidroot";
+            cdabuilder.PatientIdExtension = "patientidextension";
+            cdabuilder.EffectiveTime = new DateTime(2016, 1, 1, 12, 0, 0);
+
+            cdabuilder.AuthorIdRoot = "autidroot";
+            cdabuilder.AuthorIdExtension = "autidextension";
+            cdabuilder.OrganizationRoot = "orgroot";
+            cdabuilder.OrganizationExtension = "orgextension";
+        }
+
         [Fact]
         public void CanBuildCDAWithContent()
         {
             var cdabuilder = new CDABuilder("application/pdf", new byte[] { 1, 2, 3, 4 });
+            setRequiredProperties(cdabuilder);
+            cdabuilder.PatientFamilyName = "FamilyName";
+            cdabuilder.PatientGivenName = "GivenName";
+
             var element = cdabuilder.CreateCDA();
             Assert.NotNull(element);
             Assert.IsAssignableFrom<XElement>(element);
@@ -48,8 +66,11 @@ namespace XDSDotNet.Tests
         public void CDACanHaveMetadata()
         {
             var cdabuilder = new CDABuilder("application/pdf", new byte[] { 1, 2, 3, 4 });
+            setRequiredProperties(cdabuilder);
+            cdabuilder.PatientFamilyName = "FamilyName";
+            cdabuilder.PatientGivenName = "GivenName";
+
             cdabuilder.Title = "Dette er en test";
-            cdabuilder.EffectiveTime = new DateTime(2016, 1, 1, 12, 0, 0);
 
             var element = cdabuilder.CreateCDA();
 
