@@ -1,0 +1,20 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+    "dependencies": {
+        "Microsoft.Extensions.CommandLineUtils": "1.1.0",
+        "XDSDotNet": "1.0.0-*"
+    },
+
+  "frameworks": {
+    "net461": {
+        "frameworkAssemblies": {
+            "System.Runtime.Serialization": "4.0.0.0",
+            "System.Xml": "4.0.0.0"
+        }
+    }
+  }
+}
