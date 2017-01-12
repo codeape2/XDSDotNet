@@ -11,6 +11,6 @@ namespace XDSDotNet
     public interface ICrossGatewayRetrieveITI39
     {
         [OperationContract(Action = "urn:ihe:iti:2007:CrossGatewayRetrieve", ReplyAction = "urn:ihe:iti:2007:CrossGatewayRetrieveResponse")]
-        Message CrossGatewayQuery(Message request);
+        Message CrossGatewayRetrieve(Message request);
     }
 }

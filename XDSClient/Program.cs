@@ -13,11 +13,11 @@ namespace XDSClient
         public static void Main(string[] args)
         {
             var app = new CommandLineApplication();
-            app.HelpOption("-?|-h|--help");
+            AddHelpOption(app);
             app.Command("iti18", command =>
             {
                 command.Description = "Execute ITI18 RegistryStoredQuery by providing the request SOAP body";
-                command.HelpOption("-?|-h|--help");
+                AddHelpOption(command);
                 var argument = command.Argument("requestfilename", "Request file name");
                 command.OnExecute(() => {
                     if (argument.Value == null)
@@ -30,7 +30,7 @@ namespace XDSClient
 
             app.Command("finddocuments", command => {
                 command.Description = "Execute ITI18 RegistryStoredQuery by providing a patient ID";
-                command.HelpOption("-?|-h|--help");
+                AddHelpOption(command);
                 var argument = command.Argument("patientid", "Patient ID");
                 command.OnExecute(() => {
                     if (argument.Value == null)
@@ -38,6 +38,16 @@ namespace XDSClient
                         return ErrorAndRetval($"Argument {argument.Name} not specified");
                     }
                     return ITI18RegistryStoredQueryCommand.ExecuteUsingPatientId(argument.Value);
+                });
+            });
+
+            app.Command("respondinggateway", command => {
+                command.Description = "Start a self-hosted WCF responding gateway that responds to ITI TODO and ITI TODO queries";
+                AddHelpOption(command);
+                command.OnExecute(() =>
+                {
+                    RespondingGateway.RunUntilKeyboardInput();
+                    return 0;
                 });
             });
 
@@ -55,6 +65,11 @@ namespace XDSClient
         {
             Error.WriteLine($"ERROR: {msg}");
             return 2;
+        }
+
+        static public void AddHelpOption(CommandLineApplication cla)
+        {
+            cla.HelpOption("-?|-h|--help");
         }
     }
 }

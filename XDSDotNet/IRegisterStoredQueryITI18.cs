@@ -14,3 +14,5 @@ namespace XDSDotNet
         Message RegistryStoredQuery(Message request);
     }
 }
+
+//TODO: Definer alle namespaces og actions som konstanter

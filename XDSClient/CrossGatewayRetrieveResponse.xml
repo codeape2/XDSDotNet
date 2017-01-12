@@ -1,0 +1,22 @@
+﻿<RetrieveDocumentSetResponse
+				xmlns="urn:ihe:iti:xds-b:2007"
+				xmlns:lcm="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0"
+				xmlns:query="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0"
+				xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0"
+				xmlns:rs="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0">
+    <rs:RegistryResponse status="urn:oasis:names:tc:ebxml-regrep:ResponseStatusType:Success"/>
+    <DocumentResponse>
+        <HomeCommunityId>urn:oid:1.2.3.4</HomeCommunityId>
+        <RepositoryUniqueId>1.3.6.1.4...1000</RepositoryUniqueId>
+        <DocumentUniqueId>1.3.6.1.4...2300</DocumentUniqueId>
+        <mimeType>text/xml</mimeType>
+        <Document>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</Document>
+    </DocumentResponse>
+    <DocumentResponse>
+        <HomeCommunityId>urn:oid:1.2.3.4</HomeCommunityId>
+        <RepositoryUniqueId>1.3.6.1.4...2000</RepositoryUniqueId>
+        <DocumentUniqueId>1.3.6.1.4...2301</DocumentUniqueId>
+        <mimeType>text/xml</mimeType>
+        <Document>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</Document>
+    </DocumentResponse>
+</RetrieveDocumentSetResponse>

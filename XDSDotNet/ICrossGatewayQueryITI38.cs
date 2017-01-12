@@ -12,6 +12,5 @@ namespace XDSDotNet
     {
         [OperationContract(Action = "urn:ihe:iti:2007:CrossGatewayQuery", ReplyAction = "urn:ihe:iti:2007:CrossGatewayQueryResponse")]
         Message CrossGatewayQuery(Message request);
-
     }
 }
