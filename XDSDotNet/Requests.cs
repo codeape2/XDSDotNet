@@ -42,9 +42,10 @@ namespace XDSDotNet
             );
         }
 
-        static public XElement GetSingleDocument_ITI43(string repositoryUniqueId, string documentUniqueId)
+
+        static public XElement GetSingleDocument_ITI43(string repositoryUniqueId, string documentUniqueId, string homeCommunityId = null)
         {
-            return new XElement(
+            var retval = new XElement(
                 xds + "RetrieveDocumentSetRequest",
                 new XElement(
                     xds + "DocumentRequest",
@@ -55,9 +56,18 @@ namespace XDSDotNet
                     new XElement(
                         xds + "DocumentUniqueId",
                         documentUniqueId
-                    )
+                    ),
+                    homeCommunityId != null
+                        ?
+                            new XElement(
+                                xds + "HomeCommunityId", 
+                                homeCommunityId
+                            )
+                        :
+                            null
                 )
             );
+            return retval;
         }
 
         public static IEnumerable<XAttribute> Attributes(params string[] items)

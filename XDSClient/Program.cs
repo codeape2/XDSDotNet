@@ -42,7 +42,7 @@ namespace XDSClient
             });
 
             app.Command("respondinggateway", command => {
-                command.Description = "Start a self-hosted WCF responding gateway that responds to ITI TODO and ITI TODO queries";
+                command.Description = "Start a self-hosted WCF responding gateway that responds to ITI 38 and ITI 39 queries";
                 AddHelpOption(command);
                 command.OnExecute(() =>
                 {
