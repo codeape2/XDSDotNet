@@ -51,4 +51,4 @@
 
 	// execute web service call
 	var response = channel.ProvideAndRegisterDocumentSet(requestMessage);
-	var responseBody = XElement.ReadFrom(response.GetReaderAtBodyContents()) as XElement;
+	var responseBody = XElement.ReadFrom(response.GetReaderAtBodyContents());
